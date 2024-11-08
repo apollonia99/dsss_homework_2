@@ -58,5 +58,9 @@ def math_quiz():
 
     print(f"\nGame over! Your score is: {score}/{number_exercises}") #after 5 runs end game and show results
 
-if __name__ == "__main__":
+def main():
     math_quiz()
+
+if __name__ == "__main__":
+    main()
+
